@@ -51,13 +51,13 @@ mavenPublishing {
 
   signAllPublications()
 
-  coordinates(group.toString(), "radix-colors", version.toString())
+  coordinates(group.toString(), "radix-ui-colors", version.toString())
 
   pom {
     name = "Radix UI Colors"
     description = "A port of `@radix-ui/colors` npm package for Kotlin."
     inceptionYear = "2025"
-    url = "https://github.com/kotlin/multiplatform-library-template/"
+    url = "https://github.com/lukmccall/radix-ui-colors/"
     licenses {
       license {
         name = "The MIT License"
@@ -73,9 +73,9 @@ mavenPublishing {
       }
     }
     scm {
-      url = "https://github.com/lukmccall/radix-colors"
-      connection = "scm:git:git://github.com/lukmccall/radix-colors.git"
-      developerConnection = "scm:git:ssh://github.com/lukmccall/radix-colors.git"
+      url = "https://github.com/lukmccall/radix-ui-colors"
+      connection = "scm:git:git://github.com/lukmccall/radix-ui-colors.git"
+      developerConnection = "scm:git:ssh://github.com/lukmccall/radix-ui-colors.git"
     }
   }
 }
