@@ -1,0 +1,12 @@
+{
+  "name": "radix-ui-colors-kotlin",
+  "private": true,
+  "version": "1.0.0",
+  "author": "Łukasz Kosmaty kosmatylukasz@gmail.com (https://github.com/lukmccall)",
+  "dependencies": {
+    "@radix-ui/colors": "3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.1"
+  }
+}
